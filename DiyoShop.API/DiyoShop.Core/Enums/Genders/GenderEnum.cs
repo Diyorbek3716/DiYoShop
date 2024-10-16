@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DiyoShop.Core.EntityModels.Users
+namespace DiyoShop.Core.Enums.Genders
 {
-	public class User
-	{
-	}
+    public enum GenderEnum
+    {
+        Unknown,
+        Male,
+        Famale
+    }
 }
